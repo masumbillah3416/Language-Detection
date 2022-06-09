@@ -3,20 +3,20 @@
 <!-- Replace the "RENAME_ME_WITH_YOUR_PROJECT_TITLE" in the text above with your project Title -->
 Course: **CSE 702 - Artificial Intelligence Lab**            
 Offered for: Session *2017-18*, Dept. of CSE, SEC
-### Group \# **00**
+### Group \# **13**
 <!-- Replace the "00" in the text above with your project group number. It should be anything between 01 to 25 -->
-Group Name: **REPLACE_ME_WITH_YOUR_GROUP_NAME**
+Group Name: **Team Candy**
 
 ## Contributors' Info
 <!-- Fill the blanks with your information. change the last two letter of the registration numbers with the respective digits. Correct the "Session" if needed. -->
 |                 |  Member 1  |  Member 2  |
 | --------------: | :--------: | :--------: |
-|            Name |            |            |
-| Registration \# | 20173315** | 20173315** | 
+|            Name |      Sakib Alam Snigdha      |     Md. Masum Billah       |
+| Registration \# | 2017331501 | 2017331531 | 
 |         Session |  2017-18   |  2017-18   |
-| GitHub Username |            |            |
-|            Cell |            |            |
-|           Email |            |            |
+| GitHub Username |        SA-00001    |      masumbillah3416      |
+|            Cell |      01798022129      |      01718988564      |
+|           Email |      sakibalamsnigdha@gmail.com      |      masumbillahsujon1998@gmail.com      |
 
 
 Supervisor
