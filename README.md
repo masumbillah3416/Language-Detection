@@ -149,7 +149,7 @@ Technical Documentation/ Instruction to Deploy the Project
     7. Here is [Postman](https://www.postman.com/downloads) demo for the API:
     <img src='assets/Postman_api_demo.PNG' width="100%" alt="Postman demo" />
     <br>
-    8. This project is also deployed on Heroku. Here is [Postman](https://www.postman.com/downloads) example: 
+    8. This project is also deployed on Heroku. Here is <a href="https://www.postman.com/downloads">Postman</a> example: 
     <img src='assets/Heroku_api_demo.PNG' width="100%" alt="Heroku demo" />
 
 - Angular Web Application
@@ -163,7 +163,7 @@ Technical Documentation/ Instruction to Deploy the Project
     8. here is the demo of the web application:
     <img src='assets/Angular_application_demo.PNG' width="100%" alt="Angular web demo" />
     <br>
-    9. This application is deployed on [Vercel](https://vercel.com). Here is the [link](https://language-detection.vercel.app) of the website.
+    9. This application is deployed on  <a href="https://vercel.com">Vercel</a>. Here is the <a href="https://language-detection.vercel.app">link</a> of the website.
 
 
 Non-Technical Documentation/ User-guide for the End-Users of the Project
