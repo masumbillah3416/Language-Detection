@@ -132,7 +132,7 @@ This will be an web based text language detection system that will detect the la
 
 ## Project Presentation Slide
 <!-- Upload the project presentation slide in GitHub in pdf format and drop a link here. The current link is a dummy one. -->
-[Here](https://docs.github.com/en/get-started) is the presentation slide of the project.
+[Here](assets/Language%20Detection%20using%20NLP.pdf) is the presentation slide of the project.
 
 Technical Documentation/ Instruction to Deploy the Project
 ----------------------------------------------------------
