@@ -125,7 +125,7 @@ Technical Documentation/ Instruction to Deploy the Project
 <!-- Write a detailed documentation for a technical user who want to DEPLOY your project. It should be as detailed as possible. You can add a FAQ section if needed where basic troubleshooting questions should be answered. Adding Screenshot is appreciated. -->
 - Model Training
 
-    1. Download and Install Python from [this](https://www.python.org/downloads/) website.
+    1. Download and Install Python from [this](https://www.python.org/downloads) website.
     2. Models Codes are inside `language_detection` folder.
     3. install the libraries using `pip install -r requirements.txt`
     4. Datas are inside `language_detection/datasets` folder.
@@ -140,28 +140,28 @@ Technical Documentation/ Instruction to Deploy the Project
 
 - Django Application
 
-    1. Download and Install Python from [this](https://www.python.org/downloads/) website.
+    1. Download and Install Python from [this](https://www.python.org/downloads) website.
     2. Django application is inside `api_application` folder.
     3. install the libraries using `pip install -r requirements.txt`
     4. Trained model file is placed in `api_application/model` folder.
     5. Run the code using `python manage.py runserver` .
     6. check single text using `http://localhost:8000/api/check-language/?text=Hello%20World`.
-    7. Here is [Postman](https://www.postman.com/downloads/) demo for the API:
+    7. Here is [Postman](https://www.postman.com/downloads) demo for the API:
     <img src='assets/Postman_api_demo.PNG' width="100%" alt="Postman demo" />
-    8. This project is also deployed on Heroku. Here is [Postman](https://www.postman.com/downloads/) example: 
+    8. This project is also deployed on Heroku. Here is [Postman](https://www.postman.com/downloads) example: 
     <img src='assets/Heroku_api_demo.PNG' width="100%" alt="Heroku demo" />
 
 - Angular Web Application
-    1. Download and Install Nodejs from [this](https://nodejs.org/en/download/) website.
+    1. Download and Install Nodejs from [this](https://nodejs.org/en/download) website.
     2. Install Angular CLI using `npm install -g @angular/cli` command.
     3. Angular application is inside `web_application` folder.
     4. Install the libraries using `npm install` command.
     5. To change the api url, in the `web_application/src/app/detector.service.ts` file, change in  line `12` with corresponding url.
     6. Run the code using `ng serve` command.
     7. Check web application using `http://localhost:4200/`
-    8. here is thedemo of the web application:
+    8. here is the demo of the web application:
     <img src='assets/Angular_application_demo.PNG' width="100%" alt="Angular web demo" />
-    9. This application is deployed on [Vercel](https://vercel.com/). Here is the [link](https://language-detection.vercel.app/) of the website.
+    9. This application is deployed on [Vercel](https://vercel.com). Here is the [link](https://language-detection.vercel.app) of the website.
 
 
 Non-Technical Documentation/ User-guide for the End-Users of the Project
