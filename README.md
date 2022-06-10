@@ -185,6 +185,28 @@ Acknowledgement
 ---------------
 <!-- You should acknowledge every external help here. A table could be a good option. From Stackoverflow question to any conference/journal paper everything should be mentioned including its use in your project. You should include the contribution of your friend if you take it from anyone. -->
 
+Paper 1:
+
+    Gebre, Binyam Gebrekidan, et al. "Improving native language identification with tf-idf weighting." Proceedings of the Eighth Workshop on Innovative Use of NLP for Building Educational Applications. 2013.
+
+Paper 2:
+
+    Remnev, Nikita. "Native Language Identification for Russian." 2019 International Conference on Data Mining Workshops (ICDMW). IEEE, 2019..
+
+
+Dataset:
+
+- The source of the language dataset is <a href="https://statmt.org/wmt11/translation-task.html#download">Machine translation of Europian Languages</a>.
+
+Youtube Videos:
+- Deployment `Django` application on `Heroku` by <a href="https://www.youtube.com/watch?v=V2rWvStauak">Code Band</a>
+- `Django API` tutorial by <a href="https://www.youtube.com/watch?v=rHux0gMZ3Eg">Programming with Mosh</a>
+- Deployment `Angular` application on `Vercel` by <a href="https://www.youtube.com/watch?v=V2rWvStauak">How To Do It</a>
+
+Friend:
+- Frontend developement guided by <a href="https://github.com/shibli21">Syed Shibli Mahmud</a> 
+
+
 Disclaimer and Non-Disclosure Agreement (NDA)
 ---------------------------------------------
 <!-- In the following TWO pairs of square brackets, put an 'x' without quotes after reading and accepting the statements. -->
