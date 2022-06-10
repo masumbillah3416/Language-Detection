@@ -148,6 +148,7 @@ Technical Documentation/ Instruction to Deploy the Project
     6. check single text using `http://localhost:8000/api/check-language/?text=Hello%20World`.
     7. Here is [Postman](https://www.postman.com/downloads) demo for the API:
     <img src='assets/Postman_api_demo.PNG' width="100%" alt="Postman demo" />
+    <br>
     8. This project is also deployed on Heroku. Here is [Postman](https://www.postman.com/downloads) example: 
     <img src='assets/Heroku_api_demo.PNG' width="100%" alt="Heroku demo" />
 
@@ -161,6 +162,7 @@ Technical Documentation/ Instruction to Deploy the Project
     7. Check web application using `http://localhost:4200/`
     8. here is the demo of the web application:
     <img src='assets/Angular_application_demo.PNG' width="100%" alt="Angular web demo" />
+    <br>
     9. This application is deployed on [Vercel](https://vercel.com). Here is the [link](https://language-detection.vercel.app) of the website.
 
 
