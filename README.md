@@ -123,19 +123,89 @@ This will be an web based text language detection system that will detect the la
 Technical Documentation/ Instruction to Deploy the Project
 ----------------------------------------------------------
 <!-- Write a detailed documentation for a technical user who want to DEPLOY your project. It should be as detailed as possible. You can add a FAQ section if needed where basic troubleshooting questions should be answered. Adding Screenshot is appreciated. -->
-1. Download and Install XAMPP from [this](https://www.apachefriends.org/download.html) website.
-2. keep the sources in `htdocs` folder.
-3. Bla Bla Bla
+- Model Training
+
+    1. Download and Install Python from [this](https://www.python.org/downloads) website.
+    2. Models Codes are inside `language_detection` folder.
+    3. install the libraries using `pip install -r requirements.txt`
+    4. Datas are inside `language_detection/datasets` folder.
+    5. This dataset contains the following languages:
+        - English (en)
+        - French (fr)
+        - German (de)
+        - Spanish (es)
+    6. Run the code using `python main.py` .
+    7. Trained model will be saved as `language_detection/LanguageDetectModel.pckl` file.
+    8. check single text using `python single.py`
+
+- Django Application
+
+    1. Download and Install Python from [this](https://www.python.org/downloads) website.
+    2. Django application is inside `api_application` folder.
+    3. install the libraries using `pip install -r requirements.txt`
+    4. Trained model file is placed in `api_application/model` folder.
+    5. Run the code using `python manage.py runserver` .
+    6. check single text using `http://localhost:8000/api/check-language/?text=Hello%20World`.
+    7. Here is [Postman](https://www.postman.com/downloads) demo for the API:
+    <img src='assets/Postman_api_demo.PNG' width="100%" alt="Postman demo" />
+    <br>
+    8. This project is also deployed on Heroku. Here is <a href="https://www.postman.com/downloads">Postman</a> example: 
+    <img src='assets/Heroku_api_demo.PNG' width="100%" alt="Heroku demo" />
+
+- Angular Web Application
+    1. Download and Install Nodejs from [this](https://nodejs.org/en/download) website.
+    2. Install Angular CLI using `npm install -g @angular/cli` command.
+    3. Angular application is inside `web_application` folder.
+    4. Install the libraries using `npm install` command.
+    5. To change the api url, in the `web_application/src/app/detector.service.ts` file, change in  line `12` with corresponding url.
+    6. Run the code using `ng serve` command.
+    7. Check web application using `http://localhost:4200/`
+    8. here is the demo of the web application:
+    <img src='assets/Angular_application_demo.PNG' width="100%" alt="Angular web demo" />
+    <br>
+    9. This application is deployed on  <a href="https://vercel.com">Vercel</a>. Here is the <a href="https://language-detection.vercel.app">link</a> of the website.
+
 
 Non-Technical Documentation/ User-guide for the End-Users of the Project
 ------------------------------------------------------------------------
 <!-- Write a detailed documentation for a non-technical user who want to USE THE FEATURES of your project. It should be as detailed as possible with proper screenshots. You may add a FAQ section if needed where common questions should be answered. Adding Screenshot is MUST. -->
-1. Go to `192.168.0.1/myproject` in your browser and observe a page like the following screenshot. If it is not found, contact the administrator.
-2. Bla Bla Bla
+1. Go to `https://language-detection.vercel.app` in your browser and observe a page like the following screenshot. If it is not found, contact the administrator.
+<img src='assets/Angular_application_demo.PNG' width="100%" alt="Language Detector Website" />
+
+2. Input any text from following language:
+    - English (en)
+    - French (fr)
+    - German (de)
+    - Spanish (es)
+
+3. Click on the button `Detect Language` and observe the result.
+4. Results of current session will be saved in `History` section.
 
 Acknowledgement
 ---------------
 <!-- You should acknowledge every external help here. A table could be a good option. From Stackoverflow question to any conference/journal paper everything should be mentioned including its use in your project. You should include the contribution of your friend if you take it from anyone. -->
+
+Paper 1:
+
+    Gebre, Binyam Gebrekidan, et al. "Improving native language identification with tf-idf weighting." Proceedings of the Eighth Workshop on Innovative Use of NLP for Building Educational Applications. 2013.
+
+Paper 2:
+
+    Remnev, Nikita. "Native Language Identification for Russian." 2019 International Conference on Data Mining Workshops (ICDMW). IEEE, 2019..
+
+
+Dataset:
+
+- The source of the language dataset is <a href="https://statmt.org/wmt11/translation-task.html#download">Machine translation of Europian Languages</a>.
+
+Youtube Videos:
+- Deployment `Django` application on `Heroku` by <a href="https://www.youtube.com/watch?v=V2rWvStauak">Code Band</a>
+- `Django API` tutorial by <a href="https://www.youtube.com/watch?v=rHux0gMZ3Eg">Programming with Mosh</a>
+- Deployment `Angular` application on `Vercel` by <a href="https://www.youtube.com/watch?v=V2rWvStauak">How To Do It</a>
+
+Friend:
+- Frontend developement guided by <a href="https://github.com/shibli21">Syed Shibli Mahmud</a> 
+
 
 Disclaimer and Non-Disclosure Agreement (NDA)
 ---------------------------------------------
