@@ -29,15 +29,22 @@ Shahjalal University of Science and Technology
 
 
 ## Project Idea
-### Motivation
+### Motivation 
 <!-- Describe here why this project is being done. -->
+Language identification is the task of recognizing a language by looking at text or listening to speech. It is one of the most challenging, yet incredibly relevant tasks in computational linguistics. Well-performing systems are necessary for both conducting linguistic research and creating various applications that work with linguistic data. In this work we only focus on recognizing textual instances. The task of language identification is aimed at recognizing all possible natural languages. The language communities are often under-resourced, and without language recognition systems they are slowed down in their progress in developing various instruments for researching the respective languages. But all the available language recognition system incurr a fee for using their services which hampers a lot of aspiring people in their work. We intend to make it open source for anyone to use and add more languages. We collect online resources for as many languages as possible.
 ### Scope
 <!-- Describe the domain space of the project. -->
+This project will include collecting datasets, creating models for training, training the model, use the model in the application, publish the application for the public. The source code with be made open source on github for further development.
 ### Platform
 <!-- What is the environment requirement of the project? What is the OS? Is it for mobile, web, or general API? -->
+Type: Web based Application
+
+Environment: Visual Studio Code, Github, Pycharm
+
+Languge: Python, Django, Javascript
 ### Project Brief
 <!-- Describe the project in brief. -->
-
+This will be an web based text language detection system that will detect the language of the text. 
 ## Project Deliverables
 <!-- This table should reflect what are you going to submit. How your progresses would be visible. Note that, you have to create a corresponding issue in the GitHub issue to submit the work of any milestone. -->
 <table>
@@ -58,9 +65,9 @@ Shahjalal University of Science and Technology
         <td>
         <ul>
             <!-- Change the following list with your project's checklist for 40% Completion. The following texts have no significance and it is put here just for beautifying. -->
-            <li>User Interface</li>
-            <li>Basic Login Functionalities</li>
-            <li>Deep Learning Model Adapting APIs</li>
+            <li>Determining project scope, environment</li>
+            <li>Research paper analysis</li>
+            <li>Features and useability</li>
         </ul>
         </td>
         <!-- Initially make the following text empty. You have to fill it in the time of submission. -->
