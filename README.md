@@ -169,8 +169,15 @@ Technical Documentation/ Instruction to Deploy the Project
 Non-Technical Documentation/ User-guide for the End-Users of the Project
 ------------------------------------------------------------------------
 <!-- Write a detailed documentation for a non-technical user who want to USE THE FEATURES of your project. It should be as detailed as possible with proper screenshots. You may add a FAQ section if needed where common questions should be answered. Adding Screenshot is MUST. -->
-1. Go to `192.168.0.1/myproject` in your browser and observe a page like the following screenshot. If it is not found, contact the administrator.
-2. Bla Bla Bla
+1. Go to `https://language-detection.vercel.app` in your browser and observe a page like the following screenshot. If it is not found, contact the administrator.
+<img src='assets/Angular_application_demo.PNG' width="100%" alt="Language Detector Website" />
+2. Input any text from following language:
+    - English (en)
+    - French (fr)
+    - German (de)
+    - Spanish (es)
+3. Click on the button `Detect Language` and observe the result.
+4. Results of current session will be saved in `History` section.
 
 Acknowledgement
 ---------------
