@@ -210,7 +210,7 @@ Friend:
 Disclaimer and Non-Disclosure Agreement (NDA)
 ---------------------------------------------
 <!-- In the following TWO pairs of square brackets, put an 'x' without quotes after reading and accepting the statements. -->
-- [ ] This is to certify that this project is done by the *Contributors* mentioned above and nothing is hidden from the supervisor. The external resource(s) used here is/are properly acknowledged above. If any proof of falsifying is found, then the supervisor and the corresponding authority would take the necessary actions.
-- [ ] This is to certify that the above mentioned *Contributors* are fully responsible for the confidentiality of the project. Any part of the project would NOT be shared publicly or privately without the prior permission of the supervisor mentioned above even after the publication of the result. If anything else happens, then the supervisor and the corresponding authority would take the necessary actions.
+- [x] This is to certify that this project is done by the *Contributors* mentioned above and nothing is hidden from the supervisor. The external resource(s) used here is/are properly acknowledged above. If any proof of falsifying is found, then the supervisor and the corresponding authority would take the necessary actions.
+- [x] This is to certify that the above mentioned *Contributors* are fully responsible for the confidentiality of the project. Any part of the project would NOT be shared publicly or privately without the prior permission of the supervisor mentioned above even after the publication of the result. If anything else happens, then the supervisor and the corresponding authority would take the necessary actions.
 
 <!-- Thank you so much. -->
