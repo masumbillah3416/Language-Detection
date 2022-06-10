@@ -68,10 +68,14 @@ This will be an web based text language detection system that will detect the la
             <li>Determining project scope, environment</li>
             <li>Research paper analysis</li>
             <li>Features and useability</li>
+            <li>Collecting sample Datasets</li>
+            <li>Model development initialization </li>
         </ul>
         </td>
         <!-- Initially make the following text empty. You have to fill it in the time of submission. -->
-        <td>Some Machine Learning Models not work properly with the APIs</td>
+        <td>
+            Further development is required.  The number of datasets collected is not sufficient to train the model. Hence, more datasets are required. Libraries like  Scikit-Learn, and Pandas are required to train the model. The model will be trained on the collected datasets. 
+        </td>
         <!-- The following is the estimated submission date for this milestone. Change it as your need. -->
         <td>May 10, 2022</td>
         <!-- Initially make the following text empty. You have to fill it in the time of submission. -->
@@ -83,16 +87,21 @@ This will be an web based text language detection system that will detect the la
         <td>
         <ul>
             <!-- Change the following list with your project's checklist for 70% Completion. The following texts have no significance and it is put here just for beautifying. -->
-            <li>Deliverable 1</li>
-            <li>Deliverable 2</li>
+            <li>Complete Dataset collection</li>
+            <li>Model development</li>
+            <li>Model training</li>
+            <li>Model testing</li>
+            <li>Model evaluation</li>
         </ul>
         </td>
         <!-- Initially make the following text empty. You have to fill it in the time of submission. -->
-        <td>5 days early submission. Some API made the task easier. </td>
+        <td>
+            Model development is completed with the collected datasets. The model is trained on the collected datasets. Testing and evaluation  are completed.
+        </td>
         <!-- The following is the estimated submission date for this milestone. Change it as your need. -->
         <td>May 20, 2022</td>
         <!-- Initially make the following text empty. You have to fill it in the time of submission. -->
-        <td>May 15, 2022</td>
+        <td>June 7, 2022</td>
     </tr>
     <tr>
         <td> 3 </td>
@@ -100,18 +109,23 @@ This will be an web based text language detection system that will detect the la
         <td>
         <ul>
             <!-- Change the following list with your project's checklist for 100% Completion. The following texts have no significance and it is put here just for beautifying. -->
-            <li>Deliverable 1</li>
-            <li>Deliverable 2</li>
-            <li>Deliverable 3</li>
-            <li>Deliverable 4</li>
+            <li>Create Api using trained model</li>
+            <li>Publish Api</li>
+            <li>Create Frontend Application</li>
+            <li>Publish Frontend Application</li>
+            <li>Application testing and debugging </li>
+            <li>Technical, non-technical Documentation </li>
+            <li>Create presentation slide </li>
         </ul>
         </td>
         <!-- Initially make the following text empty. You have to fill it in the time of submission. -->
-        <td>Delayed Submission without any genuine reason. Hence, penalty is must. </td>
+        <td>
+            Model trained and tested (80:20) using 180657(English), 147251(French), 161805(German) and 159260(Spanish) datasets.
+         </td>
         <!-- The following is the estimated submission date for this milestone. Change it as your need. -->
-        <td>May 30, 2022</td>
+        <td>June 10, 2022</td>
         <!-- Initially make the following text empty. You have to fill it in the time of submission. -->
-        <td>June 12, 2022</td>
+        <td>June 10, 2022</td>
     </tr>
 </tbody>
 </table>
